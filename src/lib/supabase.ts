@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://cvnebywmqwcljmlomism.supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN2bmVieXdtcXdjbGptbG9taXNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTExMjYxNjcsImV4cCI6MjA2NjcwMjE2N30.YnePUBhRIccj7VY7caFiHdBIGPY14LhSpbSMonyJH5Q';
 
 if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('Missing Supabase environment variables. Please check your .env file.');
